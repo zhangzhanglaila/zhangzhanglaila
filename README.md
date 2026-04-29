@@ -1,68 +1,33 @@
-# 👋 Hi, I'm zhangzhanglaila
-<!-- Cyberpunk Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=ZHANGZHANGLAILA&fontSize=45&fontColor=00ffcc&color=0:0f0c29,50:302b63,100:24243e&animation=blinking" />
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&color=00FFC6&center=true&vCenter=true&width=900&lines=System+Online...;Welcome+to+My+Cyber+Space;Code+the+Future" />
-</p>
+<!-- ================== HEADER ================== -->
+<h1 align="center">⚡ Developer Control Panel</h1>
+<p align="center">zhangzhanglaila / System Status: ONLINE</p>
 
 ---
 
-### 🧠 About Me
-```diff
-+ Programmer
-+ Builder
-+ Tech Explorer
+<!-- ================== STATUS ================== -->
+### 🟢 System Status
 
----
-
-## 🛠 技术栈
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,vue,react,nodejs,spring,fastapi,mysql,redis,docker,git,linux,vscode,idea,bash,nginx&perline=10" />
-</div>
-
----
-
-## 📊 GitHub 数据看板
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=zhangzhanglaila&show_icons=true&theme=nightowl&hide_border=true&rank_icon=github&hide=prs,issues,contribs" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhangzhanglaila&layout=compact&theme=nightowl&hide_border=true&exclude=c++,c" />
-</div>
-
-<div align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=zhangzhanglaila&theme=nightowl&hide_border=true&date_format=%5BY.%5Dn.j" />
-</div>
-
----
-
-## 📋 个人综合概览
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zhangzhanglaila&theme=nightowl" />
-</div>
-
----
-
-## 📈 开发活跃度趋势
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zhangzhanglaila&theme=nightowl&hide_border=true&area=true" />
-</div>
-
----
-
-## 🐍 贪吃蛇动态贡献图
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/zhangzhanglaila/zhangzhanglaila/output/snake.svg" alt="Snake animation" />
-</div>
-
----
-
-<div align="center">
-
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:1a103f,50:202060,100:0f3460" alt="footer" />
+```yaml
+User: zhangzhanglaila
+Role: Backend / AI Agent Developer
+Focus:
+  - Distributed Systems
+  - AI Agents
+  - Automation Tools
+Status: Building 🚀
+<!-- ================== TECH RADAR ================== -->
+🧠 Tech Radar
+<table> <tr> <td align="center">Core</td> <td align="center">Backend</td> <td align="center">Frontend</td> <td align="center">Infra</td> </tr> <tr> <td align="center"> Python<br>Java </td> <td align="center"> Spring<br>FastAPI<br>Node.js </td> <td align="center"> React<br>Vue </td> <td align="center"> Docker<br>Redis<br>MySQL<br>Linux </td> </tr> </table>
+<!-- ================== METRICS ================== -->
+📊 Metrics
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=zhangzhanglaila&show_icons=true&hide_border=true" /> </p>
+<!-- ================== ACTIVITY ================== -->
+📈 Activity Stream
+<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=zhangzhanglaila&theme=react-dark" /> </p>
+<!-- ================== PROJECT PHILOSOPHY ================== -->
+⚙️ Engineering Philosophy
+> Build systems, not scripts
+> Automate everything repeatable
+> Reduce complexity, increase clarity
+> Think in architecture, not functions
+<!-- ================== FOOTER ================== --> <p align="center"> ──────────────── ⚡ End of Transmission </p> ```
