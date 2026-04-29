@@ -1,45 +1,67 @@
 # 👋 Hi, I'm zhangzhanglaila
-<p align="center">
-  <span style="color:#58a6ff;">Dark Tech Style | Always Coding & Learning</span>
-</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=zhangzhanglaila&fontSize=42&fontColor=69f0ae&animation=twinkling&color=0:1a103f,50:202060,100:0f3460" alt="header" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1200&center=true&vCenter=true&width=980&lines=%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84+GitHub+%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5;%E7%83%AD%E7%88%B1%E7%BC%96%E7%A8%8B%EF%BC%8C%E6%8C%81%E7%BB%AD%E6%8C%81%E7%BB%AD%E6%88%90%E9%95%BF;Code+|+Learn+|+Build+|+Grow" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=venom&height=120&text=Never+Stop+Learning&fontSize=38&color=0:69f0ae,100:2196f3&fontColor=ffffff&stroke=0&animation=fadeIn" alt="banner" />
+
+</div>
+
+<div align="center">
+
+[![访问量](https://komarev.com/ghpvc/?username=zhangzhanglaila&style=for-the-badge&color=2196f3)](https://github.com/zhangzhanglaila)
+[![Star 总数](https://img.shields.io/github/stars/zhangzhanglaila?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)](https://github.com/zhangzhanglaila?tab=repositories)
+
+</div>
 
 ---
 
-## 🐍 动态贡献贪吃蛇
-<p align="center">
-  <img alt="snake" src="https://github.com/zhangzhanglaila/zhangzhanglaila/blob/output/github-contribution-grid-snake.svg" width="100%" />
-</p>
+## 🛠 技术栈
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,vue,react,nodejs,spring,fastapi,mysql,redis,docker,git,linux,vscode,idea,bash,nginx&perline=10" />
+</div>
 
 ---
 
-## 📊 GitHub 数据统计
-<p align="center">
-  <!-- 只显示星标、提交数，隐藏 PR/Issues/贡献 -->
-  <img src="https://github-readme-stats.vercel.app/api?username=zhangzhanglaila&show_icons=true&theme=tokyonight&hide_border=true&hide=prs,issues,contribs&include_all_commits=true&cache_seconds=1800" width="49%" />
+## 📊 GitHub 数据看板
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=zhangzhanglaila&show_icons=true&theme=nightowl&hide_border=true&rank_icon=github&hide=prs,issues,contribs" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhangzhanglaila&layout=compact&theme=nightowl&hide_border=true&exclude=c++,c" />
+</div>
 
-  <!-- 屏蔽C++等多余语言，只显示你真实用到的 -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhangzhanglaila&layout=compact&theme=tokyonight&hide_border=true&exclude=c++,c&cache_seconds=1800" width="42%" />
-</p>
-
----
-
-## 🔥 连续提交打卡
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zhangzhanglaila&theme=tokyonight&hide_border=true&cache_seconds=1800" width="55%" />
-</p>
+<div align="center">
+  <img height="170" src="https://streak-stats.demolab.com?user=zhangzhanglaila&theme=nightowl&hide_border=true&date_format=%5BY.%5Dn.j" />
+</div>
 
 ---
 
-## 👀 主页访问统计
-<p align="center">
-  <img src="https://visitor-badge.glitch.me/badge?page=github.com_zhangzhanglaila" />
-</p>
+## 📋 个人综合概览
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zhangzhanglaila&theme=nightowl" />
+</div>
 
 ---
 
-## 🛠 全栈技术栈
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,html,css,vue,react,nodejs,vite,git,github,docker,mysql,redis,linux,nginx,vscode,intellij,markdown,json,bash,gitlab&perline=9" />
-</p>
+## 📈 开发活跃度趋势
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zhangzhanglaila&theme=nightowl&hide_border=true&area=true" />
+</div>
 
 ---
+
+## 🐍 贪吃蛇动态贡献图
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/zhangzhanglaila/zhangzhanglaila/output/snake.svg" alt="Snake animation" />
+</div>
+
+---
+
+<div align="center">
+
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:1a103f,50:202060,100:0f3460" alt="footer" />
