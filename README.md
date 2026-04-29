@@ -1,25 +1,20 @@
 # 👋 Hi, I'm zhangzhanglaila
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=pixel&color=auto&height=200&section=header&text=zhangzhanglaila&font=PressStart2P&fontSize=25&fontColor=fff&desc=LEVEL%2099%20DEVELOPER&descColor=ff0&descAlignY=75" width="100%" />
-</p>
 
+<!-- 动态贪吃蛇 -->
 <p align="center">
-  <img src="https://img.shields.io/badge/HP-100%2F100-ff0000?style=flat-square&logo=heart&logoColor=white" />
-  <img src="https://img.shields.io/badge/EXP-9999-ffff00?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/STAGE-GITHUB-00ff00?style=flat-square&logo=code&logoColor=white" />
+  <img src="https://github-readme-stats.vercel.app/api/contribution-grid-snake?user=zhangzhanglaila&theme=tokyonight" width="100%" />
 </p>
 
 ---
 
-### 🎮 My Tech Inventory
+## 📊 数据统计（仅显示Star/Commit，隐藏所有0项）
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,js,html,css,git&theme=light&perline=3" style="image-rendering: pixelated;" />
+<img src="https://github-readme-stats.vercel.app/api?username=zhangzhanglaila&show_icons=true&theme=tokyonight&hide_border=true&hide=prs,issues,contribs&include_all_commits=true" />
 </p>
 
 ---
 
-### 📊 Game Stats
+## 🛠 技术栈（超多图标拉满）
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zhangzhanglaila&show_icons=true&theme=algolia&hide_border=true&bg_color=000000&icon_color=ff0&title_color=ff0&text_color=fff" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhangzhanglaila&layout=compact&theme=algolia&hide_border=true&bg_color=000000&title_color=ff0" width="40%" />
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,vue,react,nodejs,git,docker,mysql,redis,linux,go,csharp,php,nginx,vscode,idea,github,gitlab&perline=10" />
 </p>
