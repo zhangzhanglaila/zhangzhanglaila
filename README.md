@@ -1,17 +1,18 @@
 # 👋 Hi, I'm zhangzhanglaila
+<!-- Cyberpunk Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=ZHANGZHANGLAILA&fontSize=45&fontColor=00ffcc&color=0:0f0c29,50:302b63,100:24243e&animation=blinking" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=zhangzhanglaila&fontSize=42&fontColor=69f0ae&animation=twinkling&color=0:1a103f,50:202060,100:0f3460" alt="header" />
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1200&center=true&vCenter=true&width=980&lines=%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84+GitHub+%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5;%E7%83%AD%E7%88%B1%E7%BC%96%E7%A8%8B%EF%BC%8C%E6%8C%81%E7%BB%AD%E6%8C%81%E7%BB%AD%E6%88%90%E9%95%BF;Code+|+Learn+|+Build+|+Grow" alt="Typing SVG" />
-<img src="https://capsule-render.vercel.app/api?type=venom&height=120&text=Never+Stop+Learning&fontSize=38&color=0:69f0ae,100:2196f3&fontColor=ffffff&stroke=0&animation=fadeIn" alt="banner" />
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&color=00FFC6&center=true&vCenter=true&width=900&lines=System+Online...;Welcome+to+My+Cyber+Space;Code+the+Future" />
+</p>
 
-</div>
+---
 
-<div align="center">
-
-[![访问量](https://komarev.com/ghpvc/?username=zhangzhanglaila&style=for-the-badge&color=2196f3)](https://github.com/zhangzhanglaila)
-[![Star 总数](https://img.shields.io/github/stars/zhangzhanglaila?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge)](https://github.com/zhangzhanglaila?tab=repositories)
-
-</div>
+### 🧠 About Me
+```diff
++ Programmer
++ Builder
++ Tech Explorer
 
 ---
 
