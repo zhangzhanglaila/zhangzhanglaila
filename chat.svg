@@ -1,0 +1,86 @@
+<svg width="760" height="360" viewBox="0 0 760 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>zhangzhanglaila animated profile cover</title>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="30" x2="700" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="40" x2="650" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42E8C4"/>
+      <stop offset="0.5" stop-color="#70A5FF"/>
+      <stop offset="1" stop-color="#F85D7F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .label { fill: #91A4B7; font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .title { fill: #F8FAFC; font: 700 30px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .text { fill: #DDE7F3; font: 500 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .dark { fill: #0F172A; }
+      .small { fill: #AFC1D4; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .bubble { filter: url(#shadow); opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop 10s ease-in-out infinite; }
+      .bubble-1 { animation-delay: 0s; }
+      .bubble-2 { animation-delay: 1.6s; }
+      .bubble-3 { animation-delay: 3.2s; }
+      .bubble-4 { animation-delay: 4.8s; }
+      .bubble-5 { animation-delay: 6.4s; }
+      .pulse { opacity: 0.55; animation: pulse 4s ease-in-out infinite; }
+      .dash { stroke-dasharray: 420; stroke-dashoffset: 420; animation: draw 7s ease-in-out infinite; }
+      @keyframes pop {
+        0%, 8% { opacity: 0; transform: translateY(12px) scale(0.98); }
+        13%, 88% { opacity: 1; transform: translateY(0) scale(1); }
+        95%, 100% { opacity: 0; transform: translateY(-8px) scale(0.99); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.85; }
+      }
+      @keyframes draw {
+        0% { stroke-dashoffset: 420; opacity: 0.2; }
+        30%, 70% { stroke-dashoffset: 0; opacity: 0.85; }
+        100% { stroke-dashoffset: -420; opacity: 0.2; }
+      }
+    </style>
+  </defs>
+
+  <rect width="760" height="360" rx="28" fill="url(#bg)"/>
+  <path class="dash" d="M82 262 C166 196 226 290 314 214 C398 142 464 176 532 108 C594 46 654 66 706 38" stroke="url(#accent)" stroke-width="2.5" fill="none"/>
+  <circle class="pulse" cx="122" cy="84" r="54" fill="#42E8C4" opacity="0.16"/>
+  <circle class="pulse" cx="626" cy="280" r="70" fill="#F85D7F" opacity="0.14"/>
+  <circle cx="684" cy="74" r="5" fill="#42E8C4"/>
+  <circle cx="704" cy="74" r="5" fill="#70A5FF"/>
+  <circle cx="724" cy="74" r="5" fill="#F85D7F"/>
+
+  <g transform="translate(58 42)">
+    <text class="label" x="0" y="0">github.com/zhangzhanglaila</text>
+    <text class="title" x="0" y="44">Build useful AI tools.</text>
+    <text class="small" x="0" y="74">Python · Agents · Video · Local-first apps</text>
+  </g>
+
+  <g class="bubble bubble-1">
+    <rect x="58" y="142" width="306" height="48" rx="16" fill="#E6F8F3"/>
+    <text class="text dark" x="82" y="173">Hi, I'm zhangzhanglaila.</text>
+  </g>
+
+  <g class="bubble bubble-2">
+    <rect x="398" y="132" width="286" height="48" rx="16" fill="#1E6B5F"/>
+    <text class="text" x="422" y="163">AI agents for real tasks.</text>
+  </g>
+
+  <g class="bubble bubble-3">
+    <rect x="82" y="214" width="360" height="48" rx="16" fill="#243B53"/>
+    <text class="text" x="106" y="245">Video montage, lyrics, photo tools.</text>
+  </g>
+
+  <g class="bubble bubble-4">
+    <rect x="374" y="250" width="274" height="48" rx="16" fill="#6D3A55"/>
+    <text class="text" x="398" y="281">Shipping from Wuhan.</text>
+  </g>
+
+  <g class="bubble bubble-5">
+    <rect x="118" y="294" width="256" height="38" rx="14" fill="#0F172A" stroke="#42E8C4" stroke-opacity="0.45"/>
+    <text class="small" x="140" y="319">README as a living cover.</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>GitHub snapshot for zhangzhanglaila</title>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="760" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="line" x1="56" y1="48" x2="700" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42E8C4"/>
+      <stop offset="0.5" stop-color="#70A5FF"/>
+      <stop offset="1" stop-color="#F85D7F"/>
+    </linearGradient>
+    <style>
+      .title { fill: #F8FAFC; font: 700 24px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .label { fill: #9FB3C8; font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .value { fill: #F8FAFC; font: 800 32px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+      .note { fill: #DDE7F3; font: 500 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="760" height="220" rx="24" fill="url(#panel)"/>
+  <path d="M44 172 C134 112 212 188 304 124 C400 56 484 110 574 68 C628 42 670 42 716 58" stroke="url(#line)" stroke-width="2.5" opacity="0.8" fill="none"/>
+  <text class="title" x="44" y="48">GitHub Snapshot</text>
+  <text class="note" x="44" y="78">Static local card, no third-party stats service required.</text>
+
+  <g transform="translate(44 112)">
+    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+    <text class="label" x="18" y="26">PUBLIC REPOS</text>
+    <text class="value" x="18" y="58">22</text>
+  </g>
+  <g transform="translate(212 112)">
+    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+    <text class="label" x="18" y="26">FOLLOWERS</text>
+    <text class="value" x="18" y="58">4</text>
+  </g>
+  <g transform="translate(380 112)">
+    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+    <text class="label" x="18" y="26">FOLLOWING</text>
+    <text class="value" x="18" y="58">6</text>
+  </g>
+  <g transform="translate(548 112)">
+    <rect width="168" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+    <text class="label" x="18" y="26">MAIN LANGUAGE</text>
+    <text class="value" x="18" y="58">Python</text>
+  </g>
+</svg>
