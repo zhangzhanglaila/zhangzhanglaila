@@ -21,22 +21,22 @@
   <rect width="760" height="220" rx="24" fill="url(#panel)"/>
   <path d="M44 172 C134 112 212 188 304 124 C400 56 484 110 574 68 C628 42 670 42 716 58" stroke="url(#line)" stroke-width="2.5" opacity="0.8" fill="none"/>
   <text class="title" x="44" y="48">GitHub Snapshot</text>
-  <text class="note" x="44" y="78">Static local card, no third-party stats service required.</text>
+  <text class="note" x="44" y="78">Static local card based on public repositories.</text>
 
   <g transform="translate(44 112)">
+    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+    <text class="label" x="18" y="26">TOTAL STARS</text>
+    <text class="value" x="18" y="58">92</text>
+  </g>
+  <g transform="translate(212 112)">
     <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
     <text class="label" x="18" y="26">PUBLIC REPOS</text>
     <text class="value" x="18" y="58">22</text>
   </g>
-  <g transform="translate(212 112)">
-    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
-    <text class="label" x="18" y="26">FOLLOWERS</text>
-    <text class="value" x="18" y="58">4</text>
-  </g>
   <g transform="translate(380 112)">
     <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
-    <text class="label" x="18" y="26">FOLLOWING</text>
-    <text class="value" x="18" y="58">6</text>
+    <text class="label" x="18" y="26">TOTAL FORKS</text>
+    <text class="value" x="18" y="58">23</text>
   </g>
   <g transform="translate(548 112)">
     <rect width="168" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
