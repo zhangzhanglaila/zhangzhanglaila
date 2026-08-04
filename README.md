@@ -32,15 +32,6 @@
 - I care about tools that are practical, local-first where possible, and easy to extend.
 - Based in Wuhan.
 
-## Featured Work
-
-| Area | Project | Highlights |
-| --- | --- | --- |
-| AI Video | [offline-short-video-agent](https://github.com/zhangzhanglaila/offline-short-video-agent) | Local short-video production workflow covering topics, scripts, editing, subtitles, and review. |
-| AI Editing | [ai-montage-agent](https://github.com/zhangzhanglaila/ai-montage-agent) | Scene detection, music sync, highlight extraction, and FFmpeg-based rendering pipeline. |
-| Creative AI | [wechat_to_lyric_agent](https://github.com/zhangzhanglaila/wechat_to_lyric_agent) | Chat-record-to-lyrics system with style control, rhyme support, and emotion extraction. |
-| Local Tools | [local-photo-manager](https://github.com/zhangzhanglaila/local-photo-manager) | Folder-native photo manager with Chinese UI, map loading, and ExifTool metadata support. |
-
 ## Tech Stack
 
 <p align="center">
