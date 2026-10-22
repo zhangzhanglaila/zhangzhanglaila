@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20Creative%20Tools-2ea44f?style=for-the-badge&logo=github" alt="Focus badge" />
   </a>
   <a href="https://github.com/zhangzhanglaila">
-    <img src="https://komarev.com/ghpvc/?username=zhangzhanglaila&style=for-the-badge&color=0e75b6" alt="Profile views" />
+    <img src="https://hits.sh/github.com/zhangzhanglaila.svg?style=for-the-badge&label=PROFILE%20VIEWS&color=0e75b6" alt="Profile views" />
   </a>
 </p>
 
