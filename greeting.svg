@@ -1,0 +1,31 @@
+<svg width="480" height="96" viewBox="0 0 480 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hi, I'm zhangzhanglaila">
+  <title>Hi, I'm zhangzhanglaila</title>
+  <defs>
+    <style>
+      .greet {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: 0;
+        fill: #1F2328;
+      }
+      .c { opacity: 0; animation: show 1ms linear both; }
+      .caret {
+        fill: #0E7C66;
+        animation: caretMove 2.3s steps(23, end) forwards,
+                   caretBlink 1.06s steps(1, end) 2.3s 5;
+      }
+      @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes caretMove { from { transform: translateX(-441.6px); } to { transform: translateX(0); } }
+      @keyframes caretBlink { 0%, 49.9% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .c { animation: none; opacity: 1; }
+        .caret { animation: none; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <text class="greet" x="19.2" y="58" textLength="441.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan class="c" style="animation-delay:.1s">H</tspan><tspan class="c" style="animation-delay:.2s">i</tspan><tspan class="c" style="animation-delay:.3s">,</tspan><tspan class="c" style="animation-delay:.4s"> </tspan><tspan class="c" style="animation-delay:.5s">I</tspan><tspan class="c" style="animation-delay:.6s">'</tspan><tspan class="c" style="animation-delay:.7s">m</tspan><tspan class="c" style="animation-delay:.8s"> </tspan><tspan class="c" style="animation-delay:.9s">z</tspan><tspan class="c" style="animation-delay:1s">h</tspan><tspan class="c" style="animation-delay:1.1s">a</tspan><tspan class="c" style="animation-delay:1.2s">n</tspan><tspan class="c" style="animation-delay:1.3s">g</tspan><tspan class="c" style="animation-delay:1.4s">z</tspan><tspan class="c" style="animation-delay:1.5s">h</tspan><tspan class="c" style="animation-delay:1.6s">a</tspan><tspan class="c" style="animation-delay:1.7s">n</tspan><tspan class="c" style="animation-delay:1.8s">g</tspan><tspan class="c" style="animation-delay:1.9s">l</tspan><tspan class="c" style="animation-delay:2s">a</tspan><tspan class="c" style="animation-delay:2.1s">i</tspan><tspan class="c" style="animation-delay:2.2s">l</tspan><tspan class="c" style="animation-delay:2.3s">a</tspan></text>
+
+  <rect class="caret" x="460.8" y="33" width="3" height="28" rx="1"/>
+</svg>
