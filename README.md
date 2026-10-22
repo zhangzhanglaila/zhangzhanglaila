@@ -1,11 +1,8 @@
-<p align="center">
-  <a href="https://github.com/zhangzhanglaila">
-    <img src="./chat.svg" width="760" alt="zhangzhanglaila — AI agent engineer, built to run in production" />
-  </a>
-</p>
+<h1 align="center">zhangzhanglaila</h1>
 
-<h1 align="center">Hi, I'm zhangzhanglaila</h1>
-<h3 align="center">AI Agent Builder | Python Developer | Creative Tool Maker</h3>
+<p align="center">
+  <strong>AI agent engineer.</strong> I build LLM systems and local-first tools that run in production.
+</p>
 
 <p align="center">
   <a href="https://github.com/zhangzhanglaila?tab=followers">
@@ -16,12 +13,6 @@
   </a>
   <a href="https://github.com/zhangzhanglaila">
     <img src="https://komarev.com/ghpvc/?username=zhangzhanglaila&style=for-the-badge&color=0e75b6" alt="Profile views" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=760&lines=Building+AI-powered+tools;Turning+ideas+into+usable+products;Writing+from+Wuhan" alt="Typing SVG" />
   </a>
 </p>
 
