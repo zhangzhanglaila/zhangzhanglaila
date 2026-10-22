@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/zhangzhanglaila">
-    <img src="./chat.svg" width="760" alt="Animated intro for zhangzhanglaila" />
+    <img src="./chat.svg" width="760" alt="zhangzhanglaila — AI agent engineer, built to run in production" />
   </a>
 </p>
 
