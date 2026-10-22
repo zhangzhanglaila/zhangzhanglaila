@@ -1,0 +1,45 @@
+name: Update GitHub stats card
+
+on:
+  schedule:
+    # Hourly. GitHub may delay scheduled runs during busy periods.
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_stats.py"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Regenerate stats.svg from the GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: zhangzhanglaila
+        run: python3 scripts/update_stats.py --out stats.svg
+
+      - name: Commit and push when the numbers changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- stats.svg; then
+            echo "stats.svg unchanged, nothing to commit"
+            exit 0
+          fi
+          git add stats.svg
+          git commit -m "chore(stats): refresh GitHub stats card"
+          git push

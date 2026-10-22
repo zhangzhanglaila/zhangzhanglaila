@@ -60,7 +60,11 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="./stats.svg" width="760" alt="GitHub snapshot for zhangzhanglaila" />
+  <img src="./stats.svg" width="760" alt="Live GitHub stats for zhangzhanglaila" />
+</p>
+
+<p align="center">
+  <sub>Stars, repos, and forks come straight from the GitHub API and refresh hourly via the <code>Update GitHub stats card</code> workflow.</sub>
 </p>
 
 ## Contribution Snake
