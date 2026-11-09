@@ -27,23 +27,18 @@
   <text class="note" x="44" y="78">Synced from the GitHub API on 2026-11-09</text>
 
   <g transform="translate(44 112)">
-    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+    <rect width="210" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
     <text class="label" x="18" y="26">TOTAL STARS</text>
     <text class="value" x="18" y="58">134</text>
   </g>
-  <g transform="translate(212 112)">
-    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+  <g transform="translate(274 112)">
+    <rect width="210" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
     <text class="label" x="18" y="26">PUBLIC REPOS</text>
     <text class="value" x="18" y="58">25</text>
   </g>
-  <g transform="translate(380 112)">
-    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+  <g transform="translate(504 112)">
+    <rect width="210" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
     <text class="label" x="18" y="26">TOTAL FORKS</text>
     <text class="value" x="18" y="58">30</text>
-  </g>
-  <g transform="translate(548 112)">
-    <rect width="168" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
-    <text class="label" x="18" y="26">MAIN LANGUAGE</text>
-    <text class="value" x="18" y="58" font-size="32">Python</text>
   </g>
 </svg>

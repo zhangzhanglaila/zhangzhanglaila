@@ -51,31 +51,10 @@ def summarize(user: str, token: str | None) -> dict[str, object]:
     stars = sum(int(repo.get("stargazers_count") or 0) for repo in repos)
     forks = sum(int(repo.get("forks_count") or 0) for repo in repos)
 
-    # Main language = the primary language of the most owned repositories.
-    # Counting repos (instead of summing bytes) keeps a project that ships a
-    # large built frontend from being reported as "HTML", and costs no extra
-    # API requests. Ties break on stars, then alphabetically, so the card is
-    # deterministic between runs.
-    repo_count: dict[str, int] = {}
-    star_count: dict[str, int] = {}
-    for repo in repos:
-        if repo.get("fork") or not repo.get("language"):
-            continue
-        name = repo["language"]
-        repo_count[name] = repo_count.get(name, 0) + 1
-        star_count[name] = star_count.get(name, 0) + int(repo.get("stargazers_count") or 0)
-
-    main_language = (
-        min(repo_count, key=lambda name: (-repo_count[name], -star_count[name], name))
-        if repo_count
-        else "n/a"
-    )
-
     return {
         "stars": stars,
         "repos": len(repos),
         "forks": forks,
-        "language": main_language,
         # Date only: the workflow runs hourly, and a full timestamp would make
         # every run rewrite the file and commit a no-op change.
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
@@ -91,13 +70,6 @@ def format_count(value: int) -> str:
     return f"{value / 1_000_000:.1f}".rstrip("0").rstrip(".") + "M"
 
 
-def value_font_size(text: str, box_width: int = 150) -> int:
-    """Keep the monospace value text inside its panel."""
-    # ui-monospace advance width is about 0.6em.
-    size = min(32, int(box_width / (0.6 * max(len(text), 1))))
-    return max(size, 12)
-
-
 def escape(text: str) -> str:
     return (
         str(text)
@@ -108,13 +80,22 @@ def escape(text: str) -> str:
 
 
 def render(stats: dict[str, object]) -> str:
-    stars = format_count(int(stats["stars"]))
-    repos = format_count(int(stats["repos"]))
-    forks = format_count(int(stats["forks"]))
-    language = escape(str(stats["language"]))
+    cards = [
+        ("TOTAL STARS", format_count(int(stats["stars"]))),
+        ("PUBLIC REPOS", format_count(int(stats["repos"]))),
+        ("TOTAL FORKS", format_count(int(stats["forks"]))),
+    ]
     updated = escape(str(stats["updated"]))
 
-    language_size = value_font_size(str(stats["language"]), box_width=132)
+    panel_width, gap, left = 210, 20, 44
+    panels = "\n".join(
+        f"""  <g transform="translate({left + index * (panel_width + gap)} 112)">
+    <rect width="{panel_width}" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
+    <text class="label" x="18" y="26">{label}</text>
+    <text class="value" x="18" y="58">{value}</text>
+  </g>"""
+        for index, (label, value) in enumerate(cards)
+    )
 
     return f"""<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <title>Live GitHub stats for zhangzhanglaila</title>
@@ -144,26 +125,7 @@ def render(stats: dict[str, object]) -> str:
   <text class="title" x="44" y="48">GitHub Snapshot</text>
   <text class="note" x="44" y="78">Synced from the GitHub API on {updated}</text>
 
-  <g transform="translate(44 112)">
-    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
-    <text class="label" x="18" y="26">TOTAL STARS</text>
-    <text class="value" x="18" y="58">{stars}</text>
-  </g>
-  <g transform="translate(212 112)">
-    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
-    <text class="label" x="18" y="26">PUBLIC REPOS</text>
-    <text class="value" x="18" y="58">{repos}</text>
-  </g>
-  <g transform="translate(380 112)">
-    <rect width="148" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
-    <text class="label" x="18" y="26">TOTAL FORKS</text>
-    <text class="value" x="18" y="58">{forks}</text>
-  </g>
-  <g transform="translate(548 112)">
-    <rect width="168" height="72" rx="14" fill="#111C2E" stroke="#243B53"/>
-    <text class="label" x="18" y="26">MAIN LANGUAGE</text>
-    <text class="value" x="18" y="58" font-size="{language_size}">{language}</text>
-  </g>
+{panels}
 </svg>
 """
 
@@ -182,7 +144,7 @@ def main() -> int:
         handle.write(svg)
 
     print(
-        "stars={stars} repos={repos} forks={forks} language={language} -> {out}".format(
+        "stars={stars} repos={repos} forks={forks} -> {out}".format(
             out=args.out, **stats
         )
     )
